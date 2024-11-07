@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Basic Project </title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-poppins text-gray-600">
+    <!--start Navigation   -->
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300">
+        <div class="container mx-auto px-4 py-3 flex items-center">
+            <a href="#"><img src="./images/easyshop.png" alt=""></a>
+            <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa fa-home"></i>
+                    </span>Home
+                </a>
+            </div>
+            <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa fa-file"></i>
+                    </span>About
+                </a>
+            </div>
+            <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa fa-phone"></i>
+                    </span>Contact
+                </a>
+            </div>
+
+            <!-- add search bar -->
+            <div class="relative ml-auto">
+                <span class="absolute left-3 top-2 text-sm text-gray-600">
+                    <i class="fa fa-search"></i>
+                </span>
+                <input type="text" name="search" id="" placeholder="search..."
+                    class="block w-full rounded-3xl pl-11 pr-2 py-2 focus:outline-none focus:border-none bg-gray-200 text-sm text-gray-600 shadow-sm shadow-slate-300">
+            </div>
+            <div class="ml-5">
+                <a href="#"
+                    class="flex items-center font-semibold text-md text-gray-900 hover:text-blue-700 transition"><span
+                        class="mr-2"><i class="fa fa-user"></i></span>Login/Register</a>
+            </div>
+        </div>
+    </nav>
+    <!--end Navigation   -->
+    <!-- main body start -->
+    <div class="py-12 bg-gray-200">
+        <div class="container mx-auto px-4 flex">
+            <!-- middle div start -->
+            <div class="xl:w-9/12 lg:w-9/12 w-full xl:ml-6 lg:mr-6">
+                <div class="flex bg-white px-3 py-4 justify-between items-center rounded-sm">
+                    <h5 class="text-base uppercase font-semibold font-roboto">Bussiness</h5>
+                    <a href="#"
+                        class="text-white py-1 px-3 bg-blue-700 rounded-xl uppercase text-sm hover:bg-blue-400 hover:text-black transition">See
+                        more</a>
+                </div>
+                <!-- blog main start -->
+                <div class="rounded-sm overflow-hidden bg-white shadow-sm">
+                    <a href="Detail.html" class="block rounded-md overflow-hidden"><img src="./images/pic7.png" alt=""
+                            class="w-full h-96 object-cover transform hover:scale-110 transition duration-500"></a>
+                    <div class="p-4 pb-5">
+                        <a href="#">
+                            <h2
+                                class="text-lg block font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a voluptatum
+                                provident molestias sapiente aspernatur totam iure culpa voluptatibus
+                                asperiores?</h2>
+                        </a>
+                        <div class="mt-1">
+                            <a href="#">
+                                <h3
+                                    class="text-sm block font-normal text-gray-500 hover:text-blue-500 transition font-roboto">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a voluptatum
+                                    provident molestias sapiente aspernatur totam iure culpa voluptatibus
+                                    asperiores?</h3>
+                            </a>
+                        </div>
+                        <div class="mt-1">
+                            <a href="#">
+                                <h3
+                                    class="text-sm block font-normal text-gray-500 hover:text-blue-500 transition font-roboto">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a voluptatum
+                                    provident molestias sapiente aspernatur totam iure culpa voluptatibus
+                                    asperiores?</h3>
+                            </a>
+                        </div>
+                        <div class="mt-1">
+                            <a href="#">
+                                <h3
+                                    class="text-sm block font-normal text-gray-500 hover:text-blue-500 transition font-roboto">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a voluptatum
+                                    provident molestias sapiente aspernatur totam iure culpa voluptatibus
+                                    asperiores?</h3>
+                            </a>
+                        </div>
+                        <div class="mt-1">
+                            <a href="#">
+                                <h3
+                                    class="text-sm block font-normal text-gray-500 hover:text-blue-500 transition font-roboto">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a voluptatum
+                                    provident molestias sapiente aspernatur totam iure culpa voluptatibus
+                                    asperiores?</h3>
+                            </a>
+                        </div>
+                        <div class="mt-3 flex space-x-4">
+                            <div class="flex text-gray-400 text-sm items-center">
+                                <span class="mr-2 text-xs"><i class="fa fa-user" aria-hidden="true"></i></span>Tips
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog main end -->
+                 <!-- comment start -->
+                  <div class="p-4 bg-white rounded-sm shadow-sm mt-4">
+                    <h4 class="text-base uppercase font-semibold font-roboto mb-4">Posu A comment</h4>
+                    <p class="text-sm text-gray-400 mb-2">10 comment</p>
+                    <div class="space-y-5">
+                        <div class="flex text-center border-b pb-5 border-green-300  ">
+                            <div class="w-12 h-12 flex flex-shrink-0">
+                                <img src="./images/pic2.png" alt="" class="w-full rounded-full">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-roboto">Sanket Mahajan</h4>
+                                <p class="text-xs text-gray-400">9 sep 2025 at 12:30</p>
+                                <p class="text-xs font-600 mt-1">nice post</p>
+                                <div class="flex gap-3 text-gray-500 text-xs mt-2">
+                                    <button>Reply</button><button>Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex text-center border-b pb-5 border-green-300  ">
+                            <div class="w-12 h-12 flex flex-shrink-0">
+                                <img src="./images/pic2.png" alt="" class="w-full rounded-full">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-roboto">Sanket Mahajan</h4>
+                                <p class="text-xs text-gray-400">9 sep 2025 at 12:30</p>
+                                <p class="text-xs font-600 mt-1">nice post</p>
+                                <div class="flex gap-3 text-gray-500 text-xs mt-2">
+                                    <button>Reply</button><button>Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex text-center border-b pb-5 border-green-300  ">
+                            <div class="w-12 h-12 flex flex-shrink-0">
+                                <img src="./images/pic2.png" alt="" class="w-full rounded-full">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-roboto">Sanket Mahajan</h4>
+                                <p class="text-xs text-gray-400">9 sep 2025 at 12:30</p>
+                                <p class="text-xs font-600 mt-1">nice post</p>
+                                <div class="flex gap-3 text-gray-500 text-xs mt-2">
+                                    <button>Reply</button><button>Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex text-center border-b pb-5 border-green-300  ">
+                            <div class="w-12 h-12 flex flex-shrink-0">
+                                <img src="./images/pic2.png" alt="" class="w-full rounded-full">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-roboto">Sanket Mahajan</h4>
+                                <p class="text-xs text-gray-400">9 sep 2025 at 12:30</p>
+                                <p class="text-xs font-600 mt-1">nice post</p>
+                                <div class="flex gap-3 text-gray-500 text-xs mt-2">
+                                    <button>Reply</button><button>Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                 <!-- comment end -->
+
+            </div>
+            <!-- middle div end -->
+
+
+
+            <!-- right div start -->
+            <div class="lg:w-3/12 w-full mt-8 lg:mt-0">
+                <!-- social link start -->
+                <div class="w-full bg-white rounded-sm shadow-sm shadow-white p-4">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto">Social Link</h3>
+                    <div class="flex gap-2">
+                        <a href="#"
+                            class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800"><i
+                                class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800"><i
+                                class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800"><i
+                                class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"
+                            class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800"><i
+                                class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+                <!-- social link end -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-4 ">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto">Category</h3>
+                    <!-- catagory slider start -->
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>Beauty</span>
+                            <span class="font-normal ml-auto">(12)</span>
+                        </a>
+                        <a href="#" class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>User</span>
+                            <span class="font-normal ml-auto">(16)</span>
+                        </a><a href="#"
+                            class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>Nature</span>
+                            <span class="font-normal ml-auto">(15)</span>
+                        </a><a href="#"
+                            class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>Profile</span>
+                            <span class="font-normal ml-auto">(12)</span>
+                        </a><a href="#"
+                            class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>Food</span>
+                            <span class="font-normal ml-auto">(10)</span>
+                        </a><a href="#"
+                            class="flex items-center font-semibold leading-4  hover:text-blue-700 transition" ">
+                             <span class=" mr-2"><i class="fa fa-file" aria-hidden="true"></i></span>
+                            <span>Mobile</span>
+                            <span class="font-normal ml-auto">(1)</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- popular post start -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto">Popular Post</h3>
+                    <div class="mt-4 ">
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0 ">
+                                <img src="./images/pic1.png" alt=""
+                                    class="h-14 w-20 rounded object-cover hover:brightness-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5
+                                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Lorem ipsum dolor sit amet.</h5>
+                                <div class="flex text-gray-500 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </span>
+                                    may-29-2000
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0 ">
+                                <img src="./images/pic2.png" alt=""
+                                    class="h-14 w-20 rounded object-cover hover:brightness-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5
+                                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Lorem ipsum dolor sit amet.</h5>
+                                <div class="flex text-gray-500 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </span>
+                                    may-29-2000
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0 ">
+                                <img src="./images/pic4.png" alt=""
+                                    class="h-14 w-20 rounded object-cover hover:brightness-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5
+                                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Lorem ipsum dolor sit amet.</h5>
+                                <div class="flex text-gray-500 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </span>
+                                    may-29-2000
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0 ">
+                                <img src="./images/pic3.png" alt=""
+                                    class="h-14 w-20 rounded object-cover hover:brightness-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5
+                                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Lorem ipsum dolor sit amet.</h5>
+                                <div class="flex text-gray-500 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </span>
+                                    may-29-2000
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0 ">
+                                <img src="./images/pic5.png" alt=""
+                                    class="h-14 w-20 rounded object-cover hover:brightness-200">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5
+                                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500">
+                                    Lorem ipsum dolor sit amet.</h5>
+                                <div class="flex text-gray-500 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    </span>
+                                    may-29-2000
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- popular post end -->
+
+                <div class="w-full bg-white shadow-sm rounded-xl p-4 mt-4">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto">Tags</h3>
+                    <div class="flex items-center flex-wrap gap-2 mt-4">
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">Bootstrap</a>
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">Java</a>
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">PHP</a>
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">React</a>
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">HTML</a>
+                        <a href="#"
+                            class="border border-gray-400 cursor-pointer px-3 py-1 text-sm font-roboto rounded-sm hover:text-white hover:bg-blue-600 hover:border-none transition">Link</a>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- right div end -->
+        </div>
+    </div>
+    <!-- main body end -->
+    <footer class="border-t py-4">
+        <p class="text-sm text-center">Copyright @2024 <span class="font-semibold">Sanket Mahajan</span>All Right
+            Reserved</p>
+    </footer>
+</body>
+
+</html>
